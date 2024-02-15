@@ -3,8 +3,10 @@ Simple implementation of B-Splines, M-Splines and I-Splines in jax, supporting j
 
 ## Usage
   For example usage look in the 
- ''' 
-  if __name__ == "__main__":
-  ...
-'''
-section of each file.
+  
+   ```
+    if __name__ == "__main__":
+    ...
+  ```
+
+section of each file. If you execute the file, it will first precompute and cache the basis splines and then generate plots of random splines. 
